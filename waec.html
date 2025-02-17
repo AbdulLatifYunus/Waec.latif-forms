@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<HTML LANG="EN">
+<HEAD>
+ <META CHARSET="UTF-8">
+ <META NAME="VIEWPORT" CONTENT+"WIDTH=DEVICE-WIDTH,INITIAL-SCALE=1.0">
+  <TITLE>combining html and css</TITLE>
+   <style>
+  body {
+       background-color: rgb(80,80,80);
+	   }
+	h1  {
+      color: white;
+	  }
+	  h2 {
+	  color: blue;
+	  }
+  </style>
+  </HEAD>
+ <h1>WAEC STUDENTS REGISTRATION FORM</h1>
+ <form>
+ <section>
+  <h2>PERSONAL DETAILS</h2>
+  <label for="name">Name:</label>
+  <input type="text" id="name"
+  name="name" aria-label="full name"
+  aria-described by="name-description">
+   <p id="name-description"> please enter your full name as it appears on your identification.</P>
+   <label for="DATE_OF_BIRTH">DATE OF BIRTH:</LABEL>
+   <INPUT TYPE="DATE" ID="DATE_OF_BIRTH"
+ name="date_of_birth" aria-label="Date of birth">
+   <label for="sex">sex:</label>
+   <select id="sex" name="sex" aria-label="sex">
+   <option value="male">male</option>
+   <option value="female">female</option
+   </select>
+   </section>
+  <h2>Examination Details</h2>
+  <label for="centre number">centre number:</label>
+  <input type="text" id="cenre_number"
+  name="centre_number" aria label="centre number">
+  <label for="candidate_number">candidate Number:</label>
+  <input type="text" id="candidate_number"
+  name="candidate_number" aria-label="candidate number">
+<label for="subjects">subjects:</label>
+   <select id="subjects" name="subjects" multiple aria-label="subjects">
+   <option value="Mathematics">Mathematics</option>
+      <option value="English_language">English language</option>
+  <option value="Physics">Physics</option>
+      <option value="Elective_ICT">Elective Ict</option>
+	 <option value="Biology">Biology</option>
+	 <option value="Mathematics">Mathematics</option>
+	 <option value="Arabic">Arabic</option>
+	 <option value="SOCIAL">SOCIAL</option>
+	 </select>
+	 </section>
+	  <button type="submit" aria-label="submit forms">Submit</button>
+	  </form>
+	  <!-- Footer section -->
+	  <footer>
+	  <p>&copy;2025 My simple website. All right Reserved</p>
+	  </footer>
+	  </body>
+	  </html>
+	  
+   
+ 
